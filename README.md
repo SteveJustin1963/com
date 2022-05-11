@@ -1,7 +1,6 @@
-# com
+# Combinatorics 
 
 use Combinatorics to solve maths, explain it in more detail
-
 
 Mathematics is the study of numbers, shapes and patterns. It is used in every aspect of our lives, from counting and measuring to more complex problems such as predicting the weather.
 
@@ -29,3 +28,4 @@ In computer science, combinatorics is used to design algorithms that are efficie
 In physics, combinatorics is used to study the behavior of particles in different systems. For example, in statistical mechanics, combinatorics is used to calculate the entropy of a system, which is a measure of the disorder of the system.
 
 In biology, combinatorics is used to study the sequence of DNA and proteins. By understanding the patterns in these sequences, biologists can learn about the function of genes and proteins and how they are related to each other.
+
