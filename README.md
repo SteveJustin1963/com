@@ -23,9 +23,23 @@ There are 10 ways to take 2 marbles from the bag:
 
 Combinatorics can be used to solve problems in a variety of different fields, including computer science, physics and biology.tell me more about how it can be used in each of these fields.
 
-In computer science, combinatorics is used to design algorithms that are efficient in both time and space. For example, the knapsack problem, which is a problem in combinatorics, can be used to design algorithms for packing items into a knapsack in such a way that the total weight of the knapsack is minimized.
+### In computer science, 
+combinatorics is used to design algorithms that are efficient in both time and space. For example, the knapsack problem, which is a problem in combinatorics, can be used to design algorithms for packing items into a knapsack in such a way that the total weight of the knapsack is minimized.
 
-In physics, combinatorics is used to study the behavior of particles in different systems. For example, in statistical mechanics, combinatorics is used to calculate the entropy of a system, which is a measure of the disorder of the system.
+### In physics, 
+combinatorics is used to study the behavior of particles in different systems. For example, in statistical mechanics, combinatorics is used to calculate the entropy of a system, which is a measure of the disorder of the system.
 
-In biology, combinatorics is used to study the sequence of DNA and proteins. By understanding the patterns in these sequences, biologists can learn about the function of genes and proteins and how they are related to each other.
+### In biology, 
+combinatorics is used to study the sequence of DNA and proteins. By understanding the patterns in these sequences, biologists can learn about the function of genes and proteins and how they are related to each other.
+
+### Combinatorics on maths
+- The number of ways of choosing 
+  - r objects from n different objects
+  - where order does not matter, is given by: nCr = n! / r!(n - r)!
+  - where order does matter, is given by: nPr = n! / (n - r)!
+
+- The number of ways of placing 
+  - r objects into n different places
+  - where order does not matter, is given by: n! / (n - r)!
+  - where order does matter, is given by: nr
 
