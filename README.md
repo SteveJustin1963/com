@@ -36,6 +36,8 @@ combinatorics is used to study the behavior of particles in different systems. F
 combinatorics is used to study the sequence of DNA and proteins. By understanding the patterns in these sequences, biologists can learn about the function of genes and proteins and how they are related to each other.
 
 ### Combinatorics on maths
+- factoring
+
 - The number of ways of choosing 
   - r objects from n different objects
   - where order does not matter, is given by: nCr = n! / r!(n - r)!
