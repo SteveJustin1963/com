@@ -27,26 +27,26 @@ There are 10 ways to take 2 coloured marbles from the bag:
 1 red and 1 blue
 ```
 
-### In computer science, 
+## In computer science, 
 combinatorics is used to design algorithms that are efficient in both time and space. For example, the knapsack problem, which is a problem in combinatorics, can be used to design algorithms for packing items into a knapsack in such a way that the total weight of the knapsack is minimized. The knapsack problem is a classic example of a combinatorial optimization problem, which involves finding the best solution from a set of possible solutions. In the knapsack problem, the goal is to select a set of items that can be placed in a knapsack with a limited capacity, such that the total value of the items is maximized. This problem can be solved using various algorithmic techniques, including dynamic programming and greedy algorithms.
 
 Other examples of combinatorial optimization problems that are commonly studied in computer science include the traveling salesman problem, the minimum spanning tree problem, and the maximum flow problem. These problems all involve finding the optimal solution from a set of possible solutions, and they have numerous applications in fields such as transportation, networking, and logistics.
 
 Combinatorics is also used in the design of error-correcting codes, which are used to detect and correct errors that may occur during the transmission of data. These codes are based on combinatorial objects called error-correcting codes, which are used to encode and decode data in a way that allows errors to be detected and corrected.
 
-### In physics, 
+## In physics, 
 combinatorics is used to study the behavior of particles in different systems. For example, in statistical mechanics, combinatorics is used to calculate the entropy of a system, which is a measure of the disorder of the system. In statistical mechanics, combinatorics is used to study the behavior of large numbers of particles, such as atoms or molecules, in a system. One important concept in statistical mechanics is entropy, which is a measure of the disorder or randomness of a system. The entropy of a system can be calculated using combinatorial techniques, such as the partition function, which is a mathematical expression that describes the behavior of the particles in the system.
 
 In addition to being used to calculate the entropy of a system, combinatorics is also used in other areas of physics, such as quantum mechanics and particle physics. In quantum mechanics, combinatorial techniques are used to calculate the probability of different outcomes in quantum experiments, and in particle physics, combinatorics is used to study the behavior of subatomic particles and the interactions between them.
 
-### In biology, 
+## In biology, 
 combinatorics is used to study the sequence of DNA and proteins. By understanding the patterns in these sequences, biologists can learn about the function of genes and proteins and how they are related to each other. Combinatorics is a powerful tool for studying the sequence of DNA and proteins in biology. DNA (deoxyribonucleic acid) is the genetic material that carries the instructions for the development and functioning of all living organisms, and proteins are large, complex molecules that perform a wide variety of functions in the body.
 
 One way in which combinatorics is used to study DNA and protein sequences is through the use of algorithms that can search for patterns and relationships within the sequences. These algorithms can help biologists identify functional elements within the sequences, such as regulatory regions or protein-coding regions, and can also help them understand how the sequences are related to each other.
 
 Another way in which combinatorics is used in biology is through the study of combinatorial chemistry, which involves the synthesis and analysis of large numbers of chemical compounds in order to identify new drugs and other biologically active molecules. Combinatorial chemistry relies on techniques such as high-throughput screening, which allows researchers to quickly test large numbers of compounds in order to identify those that have the desired biological activity.
 
-### Combinatorics is a branch of mathematics that deals with counting, organizing, and analyzing the ways in which objects can be combined or arranged. Here are some more examples of concepts in combinatorics:
+## Combinatorics is a branch of mathematics that deals with counting, organizing, and analyzing the ways in which objects can be combined or arranged. Here are some more examples of concepts in combinatorics:
 
 Factoring: This is the process of expressing a number as a product of its prime factors. For example, the number 12 can be factored as 2 * 2 * 3, and the number 30 can be factored as 2 * 3 * 5.
 
@@ -75,7 +75,8 @@ To determine the game value of a position in the game tree, we can use a variety
 
 For example, suppose we use a minimax algorithm to analyze the game tree for chess and determine that the optimal opening strategy for the player with the white pieces is to play the Ruy Lopez opening. This means that the player with the white pieces should make the following moves: 1.e4, 2.Nf3, 3.Bb5. This opening has a positive game value, which means that it is advantageous for the player with the white pieces.
 
-code uses the minimax algorithm to analyze the game tree for chess and determine the optimal opening strategy for the player with the white pieces. The minimax algorithm is a recursive algorithm that searches the game tree by alternating between maximizing and minimizing the score at each level of the tree. The alpha-beta pruning technique is used to reduce the search space and improve the efficiency of the algorithm. The evaluate_position() function is used to assign a score to each position in the game tree based on the material balance and other factors.
+## code uses the minimax algorithm to analyze the game tree for chess 
+and determine the optimal opening strategy for the player with the white pieces. The minimax algorithm is a recursive algorithm that searches the game tree by alternating between maximizing and minimizing the score at each level of the tree. The alpha-beta pruning technique is used to reduce the search space and improve the efficiency of the algorithm. The evaluate_position() function is used to assign a score to each position in the game tree based on the material balance and other factors.
 ```
 #include <stdio.h>
 #include <stdlib.h>
