@@ -36,9 +36,7 @@ The knapsack problem is a problem in combinatorics that involves selecting a sub
 
 Given a set of items, each with a weight and a value, and a knapsack with a given weight capacity, find the subset of items that maximizes the total value of the selected items while staying within the weight limit of the knapsack.
 
-One way to solve the knapsack problem is to use a dynamic programming approach. The idea is to build up a solution to the problem by solving smaller subproblems and using their solutions to solve larger subproblems.
-
-Here is a sample C code that implements a dynamic programming algorithm for solving the knapsack problem:
+One way to solve the knapsack problem is to use a dynamic programming approach. The idea is to build up a solution to the problem by solving smaller subproblems and using their solutions to solve larger subproblems.  The algorithm starts by initializing a table for storing the maximum value of each subproblem. The table is then filled in by looping over the items and weights and using the solutions to smaller subproblems to solve larger subproblems. At each step, the algorithm considers two options: either to include the current item in the knapsack or to skip it. The maximum value for the current subproblem is then calculated as the maximum of these two options. Finally, the maximum value for the final subproblem is returned as the solution to the knapsack problem. ```knapsack.c```
 
 
 Other examples of combinatorial optimization problems that are commonly studied in computer science include the traveling salesman problem, the minimum spanning tree problem, and the maximum flow problem. These problems all involve finding the optimal solution from a set of possible solutions, and they have numerous applications in fields such as transportation, networking, and logistics.
