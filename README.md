@@ -30,6 +30,17 @@ There are 10 ways to take 2 coloured marbles from the bag:
 ## In computer science, 
 combinatorics is used to design algorithms that are efficient in both time and space. For example, the knapsack problem, which is a problem in combinatorics, can be used to design algorithms for packing items into a knapsack in such a way that the total weight of the knapsack is minimized. The knapsack problem is a classic example of a combinatorial optimization problem, which involves finding the best solution from a set of possible solutions. In the knapsack problem, the goal is to select a set of items that can be placed in a knapsack with a limited capacity, such that the total value of the items is maximized. This problem can be solved using various algorithmic techniques, including dynamic programming and greedy algorithms.
 
+## algorithm for solving the knapsack problem:
+
+The knapsack problem is a problem in combinatorics that involves selecting a subset of items from a given set of items, so as to maximize the total value of the selected items while staying within a given weight limit. The problem can be formalized as follows:
+
+Given a set of items, each with a weight and a value, and a knapsack with a given weight capacity, find the subset of items that maximizes the total value of the selected items while staying within the weight limit of the knapsack.
+
+One way to solve the knapsack problem is to use a dynamic programming approach. The idea is to build up a solution to the problem by solving smaller subproblems and using their solutions to solve larger subproblems.
+
+Here is a sample C code that implements a dynamic programming algorithm for solving the knapsack problem:
+
+
 Other examples of combinatorial optimization problems that are commonly studied in computer science include the traveling salesman problem, the minimum spanning tree problem, and the maximum flow problem. These problems all involve finding the optimal solution from a set of possible solutions, and they have numerous applications in fields such as transportation, networking, and logistics.
 
 Combinatorics is also used in the design of error-correcting codes, which are used to detect and correct errors that may occur during the transmission of data. These codes are based on combinatorial objects called error-correcting codes, which are used to encode and decode data in a way that allows errors to be detected and corrected.
