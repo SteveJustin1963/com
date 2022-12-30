@@ -40,6 +40,9 @@ One way to solve the knapsack problem is to use a dynamic programming approach. 
 
 
 Other examples of combinatorial optimization problems that are commonly studied in computer science include the traveling salesman problem, the minimum spanning tree problem, and the maximum flow problem. These problems all involve finding the optimal solution from a set of possible solutions, and they have numerous applications in fields such as transportation, networking, and logistics.
+## code 
+reads in city data from a file called "cities.txt", which should contain the number of cities on the first line, followed by the x and y coordinates of each city on subsequent lines. It then calculates the distances between all cities and uses a recursive function to find the shortest path through all cities. The shortest path and total cost are then printed to the console. ```travel.c```
+
 
 Combinatorics is also used in the design of error-correcting codes, which are used to detect and correct errors that may occur during the transmission of data. These codes are based on combinatorial objects called error-correcting codes, which are used to encode and decode data in a way that allows errors to be detected and corrected.
 
